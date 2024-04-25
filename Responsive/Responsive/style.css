@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15PX 20px;
+    color: white;
+}
+nav li{
+    display: inline-block;
+    margin: 10PX 20px;
+    font-weight: 600;
+
+}
+.main{
+    width: 100%;
+    display: flex;
+
+}
+.content{
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: white;
+    overflow: hidden;
+}
+.content h1{
+    font-size: 80PX;
+    margin-bottom: 1%;
+    letter-spacing: 8px;
+}
+.content h3{
+    font-size: 25PX;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content P{
+    font-size: 20PX;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+button{
+    padding: 15PX 30PX;
+    background: transparent; 
+    color: white;
+    font-size: 17PX;
+    border-radius: 10PX;
+}
+.image{
+    width: 50%;
+    margin-top: 6%;
+
+}
+img{
+    width: 30rem;
+}
+@media screen and (max-width:576px) {
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .content h1{
+        margin-bottom: 5%;
+    }
+    .content h3{
+        margin-bottom: 5%;
+    }
+
+    .image{
+        width: 100%;
+        position: absolute;
+        bottom: -5%;
+        display: flex;
+        justify-content: center;
+    }
+    .img{
+        width: 10rem;
+    }
+    
+}
+
+ 
+
